@@ -1,6 +1,8 @@
-#Open carbon ether system
+# Open carbon ether system
 
-##Overview
+Status : Work in progress, created for the Future Cities project 
+
+## Overview
 The Open carbon initiative aims to provide a fully transparent and distributed ledger to track carbon emissions.
 
 
