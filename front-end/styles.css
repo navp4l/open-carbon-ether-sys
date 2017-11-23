@@ -8,22 +8,30 @@ body{
 }
 
 nav{
-  height: 160px;
+  height: 88px;
   width:100vw;
   position: fixed;
   top: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content:space-between;
+  align-items: center;
   background-color: #3E3D41;
 }
+nav img{
+  padding: 24px;
+  height: 40px;width: 40px;
+  object-fit: contain;
+}
   .logo{
-    padding: 40px;
-    height: 80px;width: 80px;
-    background-image: src("assets/N-coin-purple.png");
+    margin: 24px;
+    height: 40px;width: 40px;
+    background-image: url("assets/N-coin-purple.png");
+    background-size: contain;
   }
 
+
 footer{
-  height: 120px;
+  height: 66px;
   width:100vw;
   position: fixed;
   bottom: 0;
@@ -32,9 +40,9 @@ footer{
   background-color: #3E3D41;
 }
   .icon{
-    height: 96px;
-    height: 96px;
-    padding: 12px;
+    height: 30px;
+    height: 30px;
+    padding: 18px;
   }
 
 
@@ -42,6 +50,6 @@ footer{
 
 .container{
   min-height: 100vh;
-  margin-top: 160px;
+  margin-top: 86px;
   background-color: #282C34;
 }
