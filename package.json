@@ -1,0 +1,34 @@
+{
+  "name": "open-carbon-ether-sys",
+  "version": "1.0.0",
+  "description": "Status : Work in progress, created for the Future Cities project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palanisn/open-carbon-ether-sys.git"
+  },
+  "author": "Naveen Palaniswamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palanisn/open-carbon-ether-sys/issues"
+  },
+  "homepage": "https://github.com/palanisn/open-carbon-ether-sys#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "babel-preset-stage-3": "^6.3.13",
+    "eth-lightwallet": "^3.0.0",
+    "ethereumjs-tx": "^1.3.3",
+    "ethereumjs-util": "^5.1.2",
+    "path": "^0.12.7",
+    "truffle-contract": "^3.0.1",
+    "web3": "0.20.1"
+  }
+}

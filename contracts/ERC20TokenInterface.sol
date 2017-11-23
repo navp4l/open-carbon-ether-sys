@@ -3,7 +3,7 @@ pragma solidity ^0.4.17;
 // ERC Token Standard #20 Interface - https://github.com/ethereum/EIPs/issues/20
 contract ERC20TokenInterface {
     
-    uint public totalSupply;
+    uint256 public totalSupply;
     
     //public functions
     function balanceOf(address _owner) constant returns (uint balance);
