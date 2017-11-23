@@ -1,0 +1,47 @@
+
+*{
+  font-family: avenir, sans-serif;
+  color: white;
+}
+body{
+  margin: 0 auto;
+}
+
+nav{
+  height: 160px;
+  width:100vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #3E3D41;
+}
+  .logo{
+    padding: 40px;
+    height: 80px;width: 80px;
+    background-image: src("assets/N-coin-purple.png");
+  }
+
+footer{
+  height: 120px;
+  width:100vw;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #3E3D41;
+}
+  .icon{
+    height: 96px;
+    height: 96px;
+    padding: 12px;
+  }
+
+
+
+
+.container{
+  min-height: 100vh;
+  margin-top: 160px;
+  background-color: #282C34;
+}
