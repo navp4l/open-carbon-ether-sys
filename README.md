@@ -34,4 +34,13 @@ This will be well served by leveraging the capabilities of Blockchain technology
 
 ### Step 2 - Build integration systems to input data to the platform
 
+
+
+### TODO - Impl
+
+* [ ] Smart Contract - Read data from hardcoded usage value and compare that data to a threshold (if nearing end of month) and issue tokens
+* [ ] Setup IPFS to work locally
+* [ ] Smart Contract - Replace hardcoded placeholder with IPFS value
+
+
  
